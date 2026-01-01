@@ -14,8 +14,6 @@ const nextConfig = {
         hostname: '**.unsplash.com',
       },
     ],
-    basePath: "/cv-portfolio",
-    assetPrefix: "/cv-portfolio/",
   },
 }
 
