@@ -2,47 +2,47 @@ import { Briefcase, GraduationCap } from 'lucide-react'
 
 const experiences = [
   {
-    year: '2022 - Present',
-    role: 'Senior Frontend Developer',
-    company: 'Tech Solutions Inc.',
+    year: '2024 - 2025',
+    role: 'IT Support',
+    company: 'Klinik Gigi Sehat',
     description: 'Leading frontend development for multiple client projects.',
   },
   {
-    year: '2020 - 2022',
-    role: 'Web Developer',
-    company: 'Digital Agency Co.',
+    year: '2021 - 2024',
+    role: 'IT Support Role',
+    company: 'Micro Electronics',
     description: 'Built responsive websites and web applications.',
   },
   {
-    year: '2018 - 2020',
-    role: 'Junior Developer',
-    company: 'Startup XYZ',
+    year: '2020 - 2021',
+    role: 'Web Developer',
+    company: 'Micro Usaha UD.FR',
     description: 'Assisted in developing mobile and web applications.',
   }
 ]
 
 const educations = [
   {
-    year: '2014 - 2018',
+    year: '2016 - 2021',
     degree: 'Bachelor of Computer Science',
-    institution: 'University of Technology',
+    institution: 'STMIK Indonesia Padang',
     description: 'Specialized in Software Engineering',
   },
   {
     year: '2018 - 2019',
-    degree: 'Web Development Bootcamp',
-    institution: 'Coding Academy',
-    description: 'Full Stack Web Development',
+    degree: 'Development Mikrotik',
+    institution: 'Mikrotik Academy',
+    description: 'Mikrotik Network Development',
   }
 ]
 
 const skills = [
-  { name: 'React/Next.js', level: 90 },
-  { name: 'TypeScript', level: 85 },
-  { name: 'Tailwind CSS', level: 95 },
-  { name: 'UI/UX Design', level: 80 },
+  { name: 'React/Next.js', level: 70 },
+  { name: 'TypeScript', level: 70 },
+  { name: 'Tailwind CSS', level: 70 },
+  { name: 'UI/UX Design', level: 85 },
   { name: 'Node.js', level: 75 },
-  { name: 'Git & DevOps', level: 85 }
+  { name: 'Git & DevOps', level: 75 }
 ]
 
 export default function About() {

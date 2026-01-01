@@ -7,7 +7,7 @@ export default function FloatingWhatsApp() {
   const [isVisible] = useState(true)
   
   const handleWhatsAppClick = () => {
-    const phoneNumber = '+6281234567890'
+    const phoneNumber = '+6289666664656'
     const message = encodeURIComponent('Hello! I visited your portfolio and would like to discuss a project.')
     window.open(`https://wa.me/${phoneNumber}?text=${message}`, '_blank')
   }

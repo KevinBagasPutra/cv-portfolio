@@ -12,11 +12,6 @@ export default function Home() {
       <Services />
       <Portfolio />
       <Contact />
-      
-      {/* Debug - Tampilkan semua section */}
-      <div className="fixed bottom-4 left-4 bg-primary text-white p-2 rounded text-sm z-50">
-        All sections loaded ✓
-      </div>
     </div>
   )
 }

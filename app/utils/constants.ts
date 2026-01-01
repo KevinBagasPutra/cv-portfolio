@@ -3,10 +3,10 @@ export const portfolioData = {
   personalInfo: {
     name: "Kevin Bagas Putra",
     title: "Frontend Developer & UI/UX Designer",
-    email: "contact@kevinbagas.com",
-    phone: "+62 812 3456 7890",
+    email: "kevinbagasputra@gmail.com",
+    phone: "+62 896 6666 4656",
     location: "Jakarta, Indonesia",
-    whatsapp: "https://wa.me/6281234567890"
+    whatsapp: "https://wa.me/6289666664656"
   },
   
   services: [

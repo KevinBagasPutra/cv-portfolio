@@ -62,7 +62,7 @@ Message: ${formData.message}`
                 </div>
                 <div className="ml-4">
                   <h4 className="font-bold text-lg">Email</h4>
-                  <p className="text-gray-600">contact@kevinbagas.com</p>
+                  <p className="text-gray-600">kevinbagasputra@gmail.com</p>
                 </div>
               </div>
               
@@ -72,10 +72,10 @@ Message: ${formData.message}`
                 </div>
                 <div className="ml-4">
                   <h4 className="font-bold text-lg">Phone / WhatsApp</h4>
-                  <p className="text-gray-600">+62 812 3456 7890</p>
+                  <p className="text-gray-600">+62 896 6666 4656</p>
                   <button
                     onClick={() => {
-                      const phoneNumber = '+6281234567890'
+                      const phoneNumber = '+6289666664656'
                       const message = encodeURIComponent('Hello! I found your portfolio and would like to discuss a project.')
                       window.open(`https://wa.me/${phoneNumber}?text=${message}`, '_blank')
                     }}
@@ -101,7 +101,7 @@ Message: ${formData.message}`
             <div className="mt-8">
               <button
                 onClick={() => {
-                  const phoneNumber = '+6281234567890'
+                  const phoneNumber = '+6289666664656'
                   window.open(`https://wa.me/${phoneNumber}`, '_blank')
                 }}
                 className="w-full bg-green-600 hover:bg-green-700 text-white font-medium py-3 px-6 rounded-lg transition-colors duration-300 flex items-center justify-center"

@@ -9,7 +9,8 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-6 md:mb-0">
             <a href="#home" className="text-2xl font-bold text-white">
-              KevinBagas<span className="text-accent">.</span>
+              Kevin Bagas Putra
+              <span className="text-accent">.</span>
             </a>
             <p className="mt-2 text-gray-300">
               Frontend Developer & UI/UX Designer
@@ -18,7 +19,7 @@ export default function Footer() {
           
           <div className="flex space-x-6 mb-6 md:mb-0">
             <a 
-              href="https://linkedin.com" 
+              href="https://linkedin.com/in/kevinbagasputra" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-gray-300 hover:text-white transition-colors duration-300"
@@ -26,7 +27,7 @@ export default function Footer() {
               <Linkedin className="h-6 w-6" />
             </a>
             <a 
-              href="https://github.com" 
+              href="https://github.com/kevinbagasputra" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-gray-300 hover:text-white transition-colors duration-300"
@@ -34,7 +35,7 @@ export default function Footer() {
               <Github className="h-6 w-6" />
             </a>
             <a 
-              href="https://instagram.com" 
+              href="https://instagram.com/kevinbagasputra" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-gray-300 hover:text-white transition-colors duration-300"

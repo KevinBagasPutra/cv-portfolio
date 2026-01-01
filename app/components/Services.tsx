@@ -38,7 +38,7 @@ const services = [
 
 export default function Services() {
   const handleWhatsAppClick = (serviceTitle: string) => {
-    const phoneNumber = '+6281234567890' // Ganti dengan nomor WhatsApp Anda
+    const phoneNumber = '+6289666664656' // Ganti dengan nomor WhatsApp Anda
     const message = `Hello! I'm interested in your ${serviceTitle} services. Can we discuss my project?`
     const encodedMessage = encodeURIComponent(message)
     const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodedMessage}`
@@ -84,7 +84,7 @@ export default function Services() {
         <div className="mt-12 text-center">
           <button
             onClick={() => {
-              const phoneNumber = '+6281234567890' // Ganti dengan nomor WhatsApp Anda
+              const phoneNumber = '+6289666664656' // Ganti dengan nomor WhatsApp Anda
               const message = encodeURIComponent('Hello! I\'d like to discuss a custom project with you.')
               window.open(`https://wa.me/${phoneNumber}?text=${message}`, '_blank')
             }}
