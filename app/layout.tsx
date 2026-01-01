@@ -9,14 +9,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Kevin Bagas Putra - Frontend Developer Portfolio',
-  description: 'Professional portfolio of Kevin Bagas Putra, Frontend Developer & UI/UX Designer',
-  keywords: ['frontend developer', 'web developer', 'UI/UX designer', 'freelancer', 'portfolio'],
-  authors: [{ name: 'Kevin Bagas Putra' }],
-  openGraph: {
-    title: 'Kevin Bagas Putra - Frontend Developer',
-    description: 'Professional portfolio showcasing my work and services',
-    type: 'website',
-  },
+  description: 'Professional portfolio with WhatsApp integration for freelance services',
 }
 
 export default function RootLayout({
@@ -27,12 +20,15 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <head>
-        <link rel="icon" href="/favicon.ico" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        {/* Add Inter font via Google Fonts */}
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
       </head>
-      <body className={`${inter.className} bg-gray-50 text-gray-900 antialiased`}>
+      <body className={`${inter.className} bg-gray-50 text-gray-900 min-h-screen flex flex-col`}>
         <Header />
-        <main className="min-h-screen pt-16">
+        <main className="flex-grow pt-16">
           {children}
         </main>
         <Footer />

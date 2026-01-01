@@ -1,0 +1,21 @@
+cv-portfolio/
+├── app/
+│   ├── layout.tsx
+│   ├── page.tsx
+│   ├── globals.css
+│   ├── components/
+│   │   ├── Header.tsx
+│   │   ├── Hero.tsx
+│   │   ├── About.tsx
+│   │   ├── Services.tsx
+│   │   ├── Portfolio.tsx
+│   │   ├── Contact.tsx
+│   │   └── Footer.tsx
+│   └── utils/
+│       └── constants.ts
+├── public/
+│   └── images/
+├── next.config.js
+├── tailwind.config.js
+├── package.json
+└── README.md
