@@ -13,6 +13,8 @@ const nextConfig = {
         protocol: 'https',
         hostname: '**.unsplash.com',
       },
+      basePath: "/cv-portfolio",
+     assetPrefix: "/cv-portfolio/",
     ],
   },
 }
