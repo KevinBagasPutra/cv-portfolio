@@ -2,7 +2,13 @@ import { Briefcase, GraduationCap } from 'lucide-react'
 
 const experiences = [
   {
-    year: '2024 - 2025',
+    year: '2025 - 2026',
+    role: 'Desktop Support Engineer',
+    company: 'PT Berca Hardayana Perkasa',
+    description: 'A Desktop Support Engineer provides technical support by troubleshooting hardware, software, and network issues for end users.',
+  },
+  {
+    year: '2025 - 2025',
     role: 'IT Support',
     company: 'Klinik Gigi Sehat',
     description: 'Leading frontend development for multiple client projects.',
