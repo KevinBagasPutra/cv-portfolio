@@ -8,7 +8,7 @@ import FloatingWhatsApp from './components/FloatingWhatsApp'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Kevin Bagas Putra - Frontend Developer Portfolio',
+  title: 'Kevin Bagas Putra - IT Support',
   description: 'Professional portfolio with WhatsApp integration for freelance services',
 }
 

@@ -16,11 +16,10 @@ export default function Hero() {
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
               Hi, I&apos;m <span className="text-primary">Kevin</span>
               <br />
-              <span className="text-accent">Frontend Developer</span>
+              <span className="text-accent">IT Support Specialist</span>
             </h1>
             <p className="text-gray-600 text-lg mb-8">
-              I create beautiful, responsive websites and applications with modern technologies. 
-              Let&apos;s build something amazing together!
+              I troubleshoot, manage, and optimize IT systems and infrastructure to keep businesses connected, secure, and running efficiently.
             </p>
             <div className="flex flex-wrap gap-4">
               <a

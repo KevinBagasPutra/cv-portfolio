@@ -13,7 +13,7 @@ export default function Footer() {
               <span className="text-accent">.</span>
             </a>
             <p className="mt-2 text-gray-300">
-              Frontend Developer & UI/UX Designer
+              IT Support Specialist & Web Developer. Providing professional services and solutions for your business needs.
             </p>
           </div>
           
@@ -68,7 +68,7 @@ export default function Footer() {
         </div>
         
         <div className="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
-          <p>&copy; {currentYear} Kevin Bagas. All rights reserved.</p>
+          <p>&copy; {currentYear} Kevin Bagas Putra. All rights reserved.</p>
         </div>
       </div>
     </footer>

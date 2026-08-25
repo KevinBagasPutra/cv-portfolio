@@ -1,37 +1,43 @@
 // app/components/Services.tsx
 'use client'
 
-import { Code, Palette, Smartphone, Globe, BarChart, Settings } from 'lucide-react'
+import { Code, Laptop, GraduationCap, Video, Database, Settings } from 'lucide-react'
 
 const services = [
   {
     title: 'Web Development',
-    description: 'Building responsive and scalable websites using modern technologies.',
+    description:
+      'Building modern, responsive, and scalable websites using the latest web technologies.',
     icon: <Code className="h-8 w-8" />,
   },
   {
-    title: 'UI/UX Design',
-    description: 'Creating intuitive user interfaces and engaging user experiences.',
-    icon: <Palette className="h-8 w-8" />,
+    title: 'IT Onsite Freelance',
+    description:
+      'Providing onsite IT services including computer, network, software, hardware, and technical troubleshooting.',
+    icon: <Laptop className="h-8 w-8" />,
   },
   {
-    title: 'Mobile Apps',
-    description: 'Developing cross-platform mobile applications for iOS and Android.',
-    icon: <Smartphone className="h-8 w-8" />,
+    title: 'Information Systems Thesis Support',
+    description:
+      'Providing technical support for applications, databases, system analysis, and Information Systems thesis projects.',
+    icon: <GraduationCap className="h-8 w-8" />,
   },
   {
-    title: 'SEO Optimization',
-    description: 'Improving website visibility and ranking on search engines.',
-    icon: <Globe className="h-8 w-8" />,
+    title: 'Video Content Creator',
+    description:
+      'Creating and editing video content for social media, promotional campaigns, branding, and digital marketing.',
+    icon: <Video className="h-8 w-8" />,
   },
   {
-    title: 'Digital Marketing',
-    description: 'Strategic marketing campaigns to grow your online presence.',
-    icon: <BarChart className="h-8 w-8" />,
+    title: 'SQL Database',
+    description:
+      'Designing, managing, optimizing, and maintaining SQL databases such as MySQL and PostgreSQL.',
+    icon: <Database className="h-8 w-8" />,
   },
   {
     title: 'Maintenance',
-    description: 'Ongoing support and maintenance for your digital products.',
+    description:
+      'Providing maintenance and troubleshooting for systems, websites, computers, networks, and IT equipment.',
     icon: <Settings className="h-8 w-8" />,
   },
 ]

@@ -2,28 +2,28 @@ import { Briefcase, GraduationCap } from 'lucide-react'
 
 const experiences = [
   {
-    year: '2025 - 2026',
-    role: 'Desktop Support Engineer',
-    company: 'PT Berca Hardayana Perkasa',
-    description: 'A Desktop Support Engineer provides technical support by troubleshooting hardware, software, and network issues for end users.',
+    year: 'Juli 2026 - Present',
+    role: 'IT Support',
+    company: 'PT Mitra Service Infotama',
+    description: 'An IT Support Vendor provides technical support services to client organizations by handling helpdesk requests, managing user accounts and access, supporting Microsoft Intune and Active Directory environments, assisting with email migration and configuration, and performing technical testing and troubleshooting using Postman while ensuring issues are resolved according to service level agreements (SLAs).',
   },
   {
-    year: '2025 - 2025',
+    year: 'Jan 2026 - Juni 2026',
+    role: 'IT Support EOS',
+    company: 'PT Berca Hardayana Perkasa',
+    description: 'An IT Support & Infrastructure Engineer responsible for deploying and supporting IT infrastructure, configuring network and end-user devices, providing helpdesk support for project rollouts, performing hardware staging, troubleshooting technical issues, and maintaining project documentation and handover records.',
+  },
+  {
+    year: '2024 - 2025',
     role: 'IT Support',
     company: 'Klinik Gigi Sehat',
-    description: 'Leading frontend development for multiple client projects.',
+    description: 'A Support & Admin professional responsible for developing and managing patient data systems, organizing patient records using MySQL and Excel, managing clinic information systems, troubleshooting and maintaining IT hardware, software, and networks, training staff, and preparing monthly financial reports.',
   },
   {
     year: '2021 - 2024',
-    role: 'IT Support Role',
+    role: 'IT Support',
     company: 'Micro Electronics',
-    description: 'Built responsive websites and web applications.',
-  },
-  {
-    year: '2020 - 2021',
-    role: 'Web Developer',
-    company: 'Micro Usaha UD.FR',
-    description: 'Assisted in developing mobile and web applications.',
+    description: 'An IT Support responsible for providing technical support across electronics retail stores, including troubleshooting computers, IT equipment, installing and maintaining hardware and software, supporting store operations, and ensuring IT systems remain stable and operational.',
   }
 ]
 
@@ -43,13 +43,20 @@ const educations = [
 ]
 
 const skills = [
-  { name: 'React/Next.js', level: 70 },
-  { name: 'TypeScript', level: 70 },
-  { name: 'Tailwind CSS', level: 70 },
-  { name: 'UI/UX Design', level: 85 },
-  { name: 'Node.js', level: 75 },
-  { name: 'Git & DevOps', level: 75 }
+  { name: 'Networking (TCP/IP, DNS, DHCP)', level: 80 },
+  { name: 'Switching & VLAN', level: 75 },
+  { name: 'Routing', level: 70 },
+  { name: 'Firewall & VPN', level: 65 },
+  { name: 'Windows & Linux Server', level: 80 },
+  { name: 'Active Directory', level: 65 },
+  { name: 'Network Monitoring', level: 70 },
+  { name: 'IT Support & Troubleshooting', level: 85 },
+  { name: 'Remote Support', level: 85 },
+  { name: 'ITSM & Helpdesk', level: 75 },
+  { name: 'Backup & Recovery', level: 75 },
+  { name: 'Network Security', level: 65 }
 ]
+
 
 export default function About() {
   return (
@@ -58,7 +65,7 @@ export default function About() {
         <div className="text-center mb-16">
           <h2 className="section-title">About Me</h2>
           <p className="section-subtitle">
-            Experienced frontend developer with passion for creating beautiful and functional web applications
+            Experienced IT Support Specialist with passion for providing professional services and solutions for your business needs
           </p>
         </div>
 
